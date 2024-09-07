@@ -19,6 +19,7 @@ interface MeetingModalProps {
   buttonIcon?: string;
 }
 
+//exluded from MeetingModal  buttonClassName instantMeeting
 const MeetingModal = ({
   isOpen,
   onClose,
@@ -27,9 +28,7 @@ const MeetingModal = ({
   children,
   handleClick,
   buttonText,
-  instantMeeting,
   image,
-  buttonClassName,
   buttonIcon,
 }: MeetingModalProps) => {
   return (
